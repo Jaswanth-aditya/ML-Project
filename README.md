@@ -7,6 +7,19 @@ This project aims to predict students' math scores based on various numerical an
 
 To build and evaluate multiple machine learning regression models to predict the **math score** of a student, using a dataset from Kaggle: [Student Performance Dataset](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977).
 
+##  Exploratory Data Analysis (EDA) & Visualization
+
+Before modeling, comprehensive EDA was performed to understand the dataset better. Key insights and visualizations included:
+
+- Distribution plots of math, reading, and writing scores
+- Correlation heatmap between numerical features
+- Count plots for categorical features like gender, race/ethnicity, parental level of education, and test preparation course
+- Box plots to understand score variation across categories
+- Insights on how reading and writing scores impact math performance
+
+Libraries used for EDA: **Pandas**, **Matplotlib**, and **Seaborn**
+
+
 ##  Models Used
 
 The following regression models were trained and evaluated. The one with the best performance is selected for final predictions:
