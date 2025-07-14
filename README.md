@@ -1,13 +1,13 @@
 
-# 📊 Student Performance Predictor
+#  Student Performance Predictor
 
 This project aims to predict students' math scores based on various numerical and categorical features such as reading and writing scores, gender, parental education level, and more.
 
-## 🎯 Goal
+##  Goal
 
 To build and evaluate multiple machine learning regression models to predict the **math score** of a student, using a dataset from Kaggle: [Student Performance Dataset](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977).
 
-## 🧠 Models Used
+##  Models Used
 
 The following regression models were trained and evaluated. The one with the best performance is selected for final predictions:
 
@@ -19,7 +19,7 @@ The following regression models were trained and evaluated. The one with the bes
 - CatBoost Regressor
 - AdaBoost Regressor
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas, NumPy
@@ -30,7 +30,7 @@ The following regression models were trained and evaluated. The one with the bes
 - Custom Logging and Exception Handling
 - Dill (for model serialization)
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 src/
@@ -46,7 +46,7 @@ src/
 ├── exception.py
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 ### Clone the Repository
 
@@ -79,7 +79,7 @@ python app.py
 
 Then open `http://127.0.0.1:5000/` in your browser to test the Flask app.
 
-## 📬 Contact
+##  Contact
 
 For any queries or suggestions, feel free to reach out or open an issue.
 
